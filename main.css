@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: #000;
 }
-
+/*
 p {
    font-size: 12px;
    line-height: 8px;
@@ -17,3 +17,46 @@ p {
    -webkit-background-clip: text;
     -webkit-text-fill-color: rgb(255, 255, 255, 0);
 }
+*/
+
+#animatedText {
+    font-size: 12px;
+    line-height: 8px;
+    text-align: justify;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+ }
+ 
+
+
+/* Music Player Styles */
+  .music-player h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .music-player button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    display: block;      /* para mahimong block element */
+    margin: 0 auto;      /* tunga horizontally */
+  }
+
+  .music-player button:hover {
+    background: #45a049;
+  }
+
+  
